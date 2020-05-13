@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30105.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Social", "Social", "{FC53B613-C03A-400E-BF43-4B68E5A3A58A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schedule", "Schedule", "{EEF354A3-9D2E-4F28-9D93-28965E5223A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gradebook", "Gradebook", "{829308EA-C54E-4065-B3D3-3A35B0B7CE98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLayer", "ApplicationLayer", "{98D4B77B-1993-4331-90F3-D6FB5AAFDE39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{C886D1FC-1AA9-40FB-A00E-78DB5CF30634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C19D4EB8-83A6-47A0-B080-9E77761CAD40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{195E13F9-C7AE-47A2-836E-BFA16ECCA85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{94CB21AE-0849-42E0-8662-87F3784658D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUNiconnect.Social.Domain", "TwitchUNiconnect.Social.Domain\TwitchUNiconnect.Social.Domain.csproj", "{A3C08284-6EEE-4154-B504-16167F8790DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniconnect.Social.UnitTests", "TwitchUniconnect.Social.UnitTests\TwitchUniconnect.Social.UnitTests.csproj", "{DFA514F3-998A-4C52-B0B9-72A52F5F00F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniconnect.Social.Dal", "TwitchUniconnect.Social.Dal\TwitchUniconnect.Social.Dal.csproj", "{A22B2ADB-B702-4503-8869-EA1BAF96950E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twtich.Uniconnect.SharedKernel", "Twtich.Uniconnect.SharedKernel\Twtich.Uniconnect.SharedKernel.csproj", "{77C48F80-8BB8-4403-A062-165B8E706AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniconnect.SharedKernel.UnitTests", "TwitchUniconnect.SharedKernel.UnitTests\TwitchUniconnect.SharedKernel.UnitTests.csproj", "{6D6FF391-85FC-43D3-9327-6498CB0A9F5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C08284-6EEE-4154-B504-16167F8790DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C08284-6EEE-4154-B504-16167F8790DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C08284-6EEE-4154-B504-16167F8790DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C08284-6EEE-4154-B504-16167F8790DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA514F3-998A-4C52-B0B9-72A52F5F00F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA514F3-998A-4C52-B0B9-72A52F5F00F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA514F3-998A-4C52-B0B9-72A52F5F00F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA514F3-998A-4C52-B0B9-72A52F5F00F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22B2ADB-B702-4503-8869-EA1BAF96950E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22B2ADB-B702-4503-8869-EA1BAF96950E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22B2ADB-B702-4503-8869-EA1BAF96950E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22B2ADB-B702-4503-8869-EA1BAF96950E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C48F80-8BB8-4403-A062-165B8E706AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C48F80-8BB8-4403-A062-165B8E706AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C48F80-8BB8-4403-A062-165B8E706AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C48F80-8BB8-4403-A062-165B8E706AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6FF391-85FC-43D3-9327-6498CB0A9F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6FF391-85FC-43D3-9327-6498CB0A9F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6FF391-85FC-43D3-9327-6498CB0A9F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6FF391-85FC-43D3-9327-6498CB0A9F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C19D4EB8-83A6-47A0-B080-9E77761CAD40} = {C886D1FC-1AA9-40FB-A00E-78DB5CF30634}
+		{195E13F9-C7AE-47A2-836E-BFA16ECCA85F} = {C886D1FC-1AA9-40FB-A00E-78DB5CF30634}
+		{A3C08284-6EEE-4154-B504-16167F8790DC} = {FC53B613-C03A-400E-BF43-4B68E5A3A58A}
+		{DFA514F3-998A-4C52-B0B9-72A52F5F00F8} = {FC53B613-C03A-400E-BF43-4B68E5A3A58A}
+		{A22B2ADB-B702-4503-8869-EA1BAF96950E} = {FC53B613-C03A-400E-BF43-4B68E5A3A58A}
+		{77C48F80-8BB8-4403-A062-165B8E706AE8} = {94CB21AE-0849-42E0-8662-87F3784658D9}
+		{6D6FF391-85FC-43D3-9327-6498CB0A9F5F} = {94CB21AE-0849-42E0-8662-87F3784658D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D97A91B-693A-4C6A-9609-1129B48E5069}
+	EndGlobalSection
+EndGlobal
