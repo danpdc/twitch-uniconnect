@@ -15,6 +15,7 @@ namespace Twtich.Uniconnect.SharedKernel.Types
 
         public static EmailAddress Create(string emailName, string domain)
         {
+            //TO DO: Add validation
             return new EmailAddress
             {
                 EmailName = emailName,
