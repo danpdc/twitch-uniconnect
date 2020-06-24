@@ -16,7 +16,7 @@ namespace TwitchUNiconnect.Social.Domain.Aggregates.PostAggregate
 
         }
 
-        public Guid AuthorId { get; private set; }
+        public Guid AuthorProfileId { get; private set; }
         public string Message { get; private set; }
         public DateTime? DateCreated { get; private set; }
         public DateTime? LastModified { get; private set; }
@@ -31,7 +31,7 @@ namespace TwitchUNiconnect.Social.Domain.Aggregates.PostAggregate
             DateTime? lastModified = null, IEnumerable<Guid> replies = null)
         {
             var comment = new Comment(id);
-            comment.AuthorId = authorId;
+            comment.AuthorProfileId = authorId;
             comment.Message = message;
             comment.DateCreated = dateCreated ?? DateTime.UtcNow;
             comment.LastModified = lastModified ?? DateTime.UtcNow;
