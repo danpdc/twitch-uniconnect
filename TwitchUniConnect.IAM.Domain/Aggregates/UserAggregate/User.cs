@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Text;
 using System.Xml;
+using TwitchUniConnect.IAM.Domain.Validation.UserValidations;
 using Twtich.Uniconnect.SharedKernel.Interfaces;
 using Twtich.Uniconnect.SharedKernel.Types;
 
@@ -24,18 +26,21 @@ namespace TwitchUniConnect.IAM.Domain.Aggregates.UserAggregate
         public static User Create(Guid id, string username, string password, string emailAddres,
             string phone)
         {
-            if (id == Guid.Empty)
-                throw new ArgumentException("The id can't be of default value");
-
             var user = new User(id);
-
-            // TO DO: Implement validation
             user.Username = username;
             user.Password = password;
             user.EmailAddress = emailAddres;
             user.PhoneNumber = phone;
 
-            return user;
+            var isUserValid = new UserValidatior(user).IsUserValid();
+
+            if (isUserValid)
+                return user;
+            else
+            {
+                user = null;
+                return user;
+            }
         }
         #endregion
 
